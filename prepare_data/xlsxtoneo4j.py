@@ -2,7 +2,7 @@ import os
 import pandas
 from py2neo import Graph,Node,Relationship#这是操作neo4j的库
 
-g = Graph('http://neo4j:1210991856hy@localhost:7474/db/data/')#neo4j.bat console
+g = Graph('http://neo4j:密码@localhost:7474/db/data/')#neo4j.bat console
     # 导入球队的数据
 def importfile():
     m_part =open('part.txt','w+')
